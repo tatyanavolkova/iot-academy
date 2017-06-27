@@ -1,3 +1,5 @@
 # Tizen build packages
 *.wgt
+# Eclipse metadata
 .metadata
+.settings/
