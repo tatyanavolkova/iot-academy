@@ -16,7 +16,7 @@ var BROKER_ADDRESS = "106.109.130.18";
 var BROKER_PORT = 1884;
 var MQTTClient; //MQTT client object
 function initMQTTConnection() {
-	MQTTClient = new Paho.MQTT.Client(BROKER_ADDRESS, Number(1884), "root");
+	MQTTClient = new Paho.MQTT.Client(BROKER_ADDRESS, Number(BROKER_PORT), "root");
 	MQTTClient.onConnectionLost = onConnectionLost;
 	MQTTClient.onMessageArrived = onMessageArrived;
 	MQTTClient.onSuccess = onConnect;
