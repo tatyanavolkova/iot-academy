@@ -4,11 +4,11 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>DPDSq6d9aXE0p90/odsPwSw8rhAUJ+iORzqMpV1f/6A=</DigestValue>
+<DigestValue>GFP63BrdfYuRdfoLh/2Cutk82l8/WKAlcZ8Kjh/As1Q=</DigestValue>
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NxHbECgQx4W1aga27qrrBpzmMTOZIq1EQNIcGRIXBkE=</DigestValue>
+<DigestValue>H6seSzFt4uGm8frzuuBes67hID6xv3Ix+pyH9Jg/kOU=</DigestValue>
 </Reference>
 <Reference URI="css%2Fvis.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -20,7 +20,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>GAAronX6yICTSWOD8xDJO/SLQaviPRX/i1pfgp851XE=</DigestValue>
+<DigestValue>Ht+ESXEIkOrE7VAeWnZbezrKbZapSIBQHLr0ExlMx24=</DigestValue>
 </Reference>
 <Reference URI="js%2Fmqttws31-min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -43,9 +43,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-KTO+pv4pYMY4ShkUWwnU/Qx9r0+u0Zd8cx7NzCc9Spnmk4v5InWp4TziDnI7GAv2T0YrNlyN+t6z
-8W9QVvBWVRpJ4FXSJJlLddmTWV9nE5E6COTAEDU6WrK8QzE/0sF3yaNFnlXMzs901JzlyGG5OGZ8
-0aDh10vQncER3377GZI=
+ee9aF5500k7zcg0zqFYm87ax/2KI/S3g8ubEmkh6Re9y6IIJNhOSvkcOphRuZ5zXIICTGXpJ7aHF
+5FdUOYcf7brY6chx0XgKS5+1dTdE5Y7ZeVjQ417pzLzI0hn8eeJhY8yQvSbZBC613e+3ZYazetMo
+pFIG6SCFG9lOiJmnJ/Q=
 </SignatureValue>
 <KeyInfo>
 <X509Data>
