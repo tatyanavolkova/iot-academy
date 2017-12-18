@@ -21,8 +21,7 @@ function initMQTTConnection() {
 	MQTTClient = new Paho.MQTT.Client(BROKER_ADDRESS, BROKER_PORT, CLIENT_ID);
 	MQTTClient.onConnectionLost = onConnectionLost;
 	MQTTClient.onMessageArrived = onMessageArrived;
-	MQTTClient.onSuccess = onConnect;
-	MQTTClient.connect();	
+	MQTTClient.connect({onSuccess:onConnect});
 }
 
 function onConnectionLost(responseObject) {
